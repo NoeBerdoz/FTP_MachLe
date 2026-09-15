@@ -4,10 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "NoeBerdoz", email = "berdoznoe@gmail.com" }
+    { name = "NoeBerdoz" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+]
 
 [project.scripts]
 pw1 = "pw1:main"
