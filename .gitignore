@@ -1,0 +1,31 @@
+# Virtual environments (matches any subfolder: lab1/.venv/, hw2/.venv/, etc.)
+.venv/
+venv/
+ENV/
+
+# Python cache & compiled binaries
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+dist/
+build/
+*.egg-info/
+
+# PyCharm / IDE settings
+.idea/
+.vscode/
+
+# Jupyter checkpoints across all subprojects
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Environment files
+.env
+.env.*
+!.env.example
