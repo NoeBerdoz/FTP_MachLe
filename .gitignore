@@ -29,3 +29,6 @@ build/
 .env
 .env.*
 !.env.example
+
+# Large datasets (exceed GitHub 100MB limit)
+PW8/pw_resources/ex2-logreg-mnist/mnist_train.csv
