@@ -1,0 +1,16 @@
+[project]
+name = "pw10"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.9",
+    "jupyterlab>=4.6.6",
+    "keras==3.15.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "tensorflow==2.21.0",
+]
